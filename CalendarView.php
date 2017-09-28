@@ -7,10 +7,10 @@
  * @version 1.0.1
  */
 
-namespace marekpetras\calendarview;
+namespace inquid\calendarview;
 
-use marekpetras\calendarview\CalendarViewAsset;
-use marekpetras\calendarview\CalendarViewDateTime;
+use inquid\calendarview\CalendarViewAsset;
+use inquid\calendarview\CalendarViewDateTime;
 
 use app\helpers\DateHelper;
 use yii\helpers\VarDumper;
@@ -49,7 +49,7 @@ use Exception;
  *
  * View
  * ~~~
- * use marekpetras\calendarview\CalendarView;
+ * use inquid\calendarview\CalendarView;
  *
  * echo CalendarView::widget(
  *     [

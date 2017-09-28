@@ -7,7 +7,7 @@
  * @version 1.0.1
  */
 
-namespace marekpetras\calendarview;
+namespace inquid\calendarview;
 
 use yii\web\AssetBundle;
 
