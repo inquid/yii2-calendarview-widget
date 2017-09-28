@@ -1,14 +1,14 @@
 {
-	"name": "marekpetras/yii2-calendarview-widget",
+	"name": "inquid/yii2-calendar",
 	"description": "CalendarView widget for Yii 2 Framework.",
 	"keywords": ["yii2", "extension", "widget", "calendar", "view", "dataprovider", "activerecord"],
-	"homepage": "https://github.com/marekpetras/yii2-calendarview-widget",
+	"homepage": "https://github.com/inquid/yii2-calendarview-widget",
 	"type": "yii2-extension",
 	"license": "MIT",
 	"authors": [
 		{
-			"name": "Marek Petras",
-			"email": "mark@markpetras.eu"
+			"name": "Luis Gonzalez",
+			"email": "contact@inquid.co"
 		}
 	],
 	"minimum-stability": "dev",
