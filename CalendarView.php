@@ -140,9 +140,9 @@ class CalendarView extends \yii\base\Widget
      * @var array predefined views, override for your own, make sure its readable by $this->view->render()
      */
     public $views = [
-        'calendar' => '@vendor/marekpetras/yii2-calendarview-widget/views/calendar',
-        'month' => '@vendor/marekpetras/yii2-calendarview-widget/views/month',
-        'day' => '@vendor/marekpetras/yii2-calendarview-widget/views/day',
+        'calendar' => '@vendor/inquid/yii2-calendar/views/calendar',
+        'month' => '@vendor/inquid/yii2-calendar/views/month',
+        'day' => '@vendor/inquid/yii2-calendar/views/day',
     ];
 
     /**
@@ -241,7 +241,7 @@ class CalendarView extends \yii\base\Widget
         Yii::$app->i18n->translations['calendar'] = [
             'class' => 'yii\i18n\PhpMessageSource',
             'sourceLanguage' => 'en-US',
-            'basePath' => '@vendor/marekpetras/yii2-calendarview-widget/messages',
+            'basePath' => '@vendor/inquid/yii2-calendar/messages',
             'fileMap' => [
                 'calendar' => 'calendar.php',
             ],
