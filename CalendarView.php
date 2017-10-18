@@ -9,21 +9,11 @@
 
 namespace inquid\calendarview;
 
-use inquid\calendarview\CalendarViewAsset;
-use inquid\calendarview\CalendarViewDateTime;
-
-use app\helpers\DateHelper;
 use yii\data\DataProviderInterface;
-use yii\helpers\VarDumper;
 use yii\helpers\Html;
 use yii\base\InvalidConfigException;
-
 use Yii;
-use yii\helpers\ArrayHelper;
-use yii\helpers\Json;
 use yii\web\View;
-use yii\web\JsExpression;
-use yii\web\AssetBundle;
 use Closure;
 use Exception;
 
