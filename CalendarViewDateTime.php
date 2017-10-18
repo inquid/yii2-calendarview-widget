@@ -25,9 +25,8 @@ class CalendarViewDateTime extends DateTime
     /**
      * __construct
      *
-     * @param $time readable by DateTime
-     * @param str timezone readable by DateTime e.g. Australia/Sydney
-     * @return void
+     * @param string $time
+     * @param string
      */
     public function __construct($time, $timezone=null)
     {
@@ -39,8 +38,8 @@ class CalendarViewDateTime extends DateTime
     /**
      * simplified formatter, overrides parent, changes 0 to 7 on weekday for sunday
      *
-     * @param str $format
-     * @return str formatted date
+     * @param string $format
+     * @return string formatted date
      */
     public function format($format)
     {
@@ -55,7 +54,7 @@ class CalendarViewDateTime extends DateTime
     /**
      * retrieve default date
      *
-     * @return str current date formatted to Y-m-d
+     * @return string current date formatted to Y-m-d
      */
     public function date()
     {

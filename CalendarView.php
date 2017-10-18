@@ -9,6 +9,7 @@
 
 namespace inquid\calendarview;
 
+use yii\base\Widget;
 use yii\data\DataProviderInterface;
 use yii\helpers\Html;
 use yii\base\InvalidConfigException;
@@ -81,7 +82,7 @@ use Exception;
  * );
  * ~~~
  */
-class CalendarView extends \yii\base\Widget
+class CalendarView extends Widget
 {
     /**
      * @var DataProviderInterface the data provider for the view. This property is required.
@@ -89,12 +90,12 @@ class CalendarView extends \yii\base\Widget
     public $dataProvider;
 
     /**
-     * @var str which field to take as a value for the date (to display in the calendar)
+     * @var string which field to take as a value for the date (to display in the calendar)
      */
     public $valueField;
 
     /**
-     * @var str which field to take as a datefield
+     * @var string which field to take as a datefield
      */
     public $dateField;
 
@@ -104,7 +105,7 @@ class CalendarView extends \yii\base\Widget
     public $weekStart = 1; // date('w')
 
     /**
-     * @var str calendar title displayed above the calendar
+     * @var string calendar title displayed above the calendar
      */
     public $title = 'Calendar';
 
