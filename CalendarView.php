@@ -13,6 +13,7 @@ use inquid\calendarview\CalendarViewAsset;
 use inquid\calendarview\CalendarViewDateTime;
 
 use app\helpers\DateHelper;
+use yii\data\DataProviderInterface;
 use yii\helpers\VarDumper;
 use yii\helpers\Html;
 use yii\base\InvalidConfigException;
@@ -93,7 +94,7 @@ use Exception;
 class CalendarView extends \yii\base\Widget
 {
     /**
-     * @var \yii\data\DataProviderInterface the data provider for the view. This property is required.
+     * @var DataProviderInterface the data provider for the view. This property is required.
      */
     public $dataProvider;
 
@@ -215,7 +216,7 @@ class CalendarView extends \yii\base\Widget
      */
     public function init()
     {
-        if ( !$this->dataProvider instanceof \yii\data\DataProviderInterface ) {
+        if ( !$this->dataProvider instanceof DataProviderInterface ) {
             throw new InvalidConfigException('Invalid data provider');
         }
 
